@@ -134,7 +134,7 @@
         </section>
         <!-- end of products section -->
         <!-- services section -->
-        <section class="services text-center clearfix">
+        <section class="services text-center clearfix" id="services">
             <h1 class="section-subtitle">Explore</h1>
             <h1 class="section-title">Our Service</h1>
             <div class="section-center clearfix">
@@ -203,10 +203,11 @@
                 </article><!-- end ofcontact info -->
                 <!-- contact form -->
                 <article class="contact-form">
-                    <form action="" class="form-group">
-                        <input type="text" placeholder="Full Name" name="text" class="form-control">
+                    <form class="form-group" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+                        <input type="text" placeholder="Full Name" name="name" class="form-control">
                         <input type="email" placeholder="Email Address" name="email" class="form-control">
                         <textarea name="message" placeholder="Message" name="message" rows="5" class="form-control"></textarea>
+                        <div data-netlify-recaptcha="true"></div>
                         <button type="submit" class="main-btn">Send</button>
                     </form>
                 </article><!-- end of contact form -->
