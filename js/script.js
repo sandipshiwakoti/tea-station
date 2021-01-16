@@ -1,6 +1,6 @@
 const navBar = document.getElementById("navbar");
-const navOpen = document.getElementById("nav-btn");
-const navClose = document.getElementById("navbar-close");
+const navOpen = document.getElementById("nav-btn-open");
+const navClose = document.getElementById("nav-btn-close");
 const navLink = document.querySelectorAll(".nav-link");
 
 // opens navbar when open button is clicked
