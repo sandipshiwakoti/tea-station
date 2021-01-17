@@ -510,6 +510,7 @@ a {
 }
 .footer-text {
   color: var(--primaryColor);
+  font-size: 1.3rem;
 }
 /* end of footer */
 

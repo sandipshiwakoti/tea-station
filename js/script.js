@@ -2,6 +2,7 @@ const navBar = document.getElementById("navbar");
 const navOpen = document.getElementById("nav-btn-open");
 const navClose = document.getElementById("nav-btn-close");
 const navLink = document.querySelectorAll(".nav-link");
+const date = document.getElementById("date");
 
 // opens navbar when open button is clicked
 navOpen.addEventListener("click",()=>{
@@ -19,3 +20,6 @@ navLink.forEach(function(link){
         navBar.classList.remove("show-navbar");
     });
 });
+
+// gives current year
+date.innerHTML = new Date().getFullYear();
